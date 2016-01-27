@@ -10,8 +10,8 @@
 #import "Helper.h"
 #import "MovieCell.h"
 #import "RTLabel.h"
-#import "UIScrollView+APParallaxHeader.h"
-@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,APParallaxViewDelegate>
+
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
 
 @property (strong, nonatomic) UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray *movieArray;

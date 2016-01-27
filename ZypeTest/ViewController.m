@@ -12,9 +12,7 @@
 #define BASE_URL @"http://api.stg-jkay.zype.com/videos/?api_key=D5BkNoOibALG3frYyyLH8Q"
 
 @interface ViewController ()
-{
-    NSNumber *contentHeight;
-}
+
 @end
 
 @implementation ViewController
@@ -98,7 +96,6 @@
 -(UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     
-    
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, 45*SCREEN_WIDTH_RATIO)];
     [view setBackgroundColor:[UIColor whiteColor]];
     
@@ -110,7 +107,6 @@
     nameLabel.textColor=[UIColor lightGrayColor];
     nameLabel.text=@"Movie List";
     nameLabel.textAlignment=NSTextAlignmentCenter;
-
     
     [view addSubview:nameLabel];
     return view;
@@ -147,14 +143,6 @@
 
     
     return cell;
-}
-
-
-
-- (void)tableView:(UITableView *)tableView
-didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-    
 }
 
 - (CGFloat)tableView:(UITableView *)tableView

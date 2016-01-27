@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2738B4791C5905F60087A46D /* UIScrollView+APParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738B4781C5905F60087A46D /* UIScrollView+APParallaxHeader.m */; };
-		2738B47A1C5905F60087A46D /* UIScrollView+APParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738B4781C5905F60087A46D /* UIScrollView+APParallaxHeader.m */; };
-		2738B47B1C5905F60087A46D /* UIScrollView+APParallaxHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738B4781C5905F60087A46D /* UIScrollView+APParallaxHeader.m */; };
 		275ED5E81C57DB5E00F89C78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 275ED5E71C57DB5E00F89C78 /* main.m */; };
 		275ED5EB1C57DB5E00F89C78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 275ED5EA1C57DB5E00F89C78 /* AppDelegate.m */; };
 		275ED5EE1C57DB5E00F89C78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 275ED5ED1C57DB5E00F89C78 /* ViewController.m */; };
@@ -57,8 +54,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2738B4771C5905F60087A46D /* UIScrollView+APParallaxHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+APParallaxHeader.h"; sourceTree = "<group>"; };
-		2738B4781C5905F60087A46D /* UIScrollView+APParallaxHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+APParallaxHeader.m"; sourceTree = "<group>"; };
 		275ED5E31C57DB5E00F89C78 /* ZypeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZypeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275ED5E71C57DB5E00F89C78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		275ED5E91C57DB5E00F89C78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -192,8 +187,6 @@
 		275ED62C1C58043800F89C78 /* 3rdParty */ = {
 			isa = PBXGroup;
 			children = (
-				2738B4771C5905F60087A46D /* UIScrollView+APParallaxHeader.h */,
-				2738B4781C5905F60087A46D /* UIScrollView+APParallaxHeader.m */,
 				275ED6321C58045100F89C78 /* AsyncImageView.h */,
 				275ED6331C58045100F89C78 /* AsyncImageView.m */,
 				275ED62D1C58044900F89C78 /* RTLabel.h */,
@@ -410,7 +403,6 @@
 				275ED5EB1C57DB5E00F89C78 /* AppDelegate.m in Sources */,
 				275ED5E81C57DB5E00F89C78 /* main.m in Sources */,
 				275ED61B1C5800C000F89C78 /* Helper.m in Sources */,
-				2738B4791C5905F60087A46D /* UIScrollView+APParallaxHeader.m in Sources */,
 				275ED6341C58045100F89C78 /* AsyncImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,7 +415,6 @@
 				275ED6351C58045100F89C78 /* AsyncImageView.m in Sources */,
 				275ED6011C57DB5F00F89C78 /* ZypeTestTests.m in Sources */,
 				275ED61C1C5800C000F89C78 /* Helper.m in Sources */,
-				2738B47A1C5905F60087A46D /* UIScrollView+APParallaxHeader.m in Sources */,
 				275ED62A1C58041500F89C78 /* Movie.m in Sources */,
 				275ED6221C5803AF00F89C78 /* MovieCell.m in Sources */,
 			);
@@ -437,7 +428,6 @@
 				275ED6361C58045100F89C78 /* AsyncImageView.m in Sources */,
 				275ED60C1C57DB5F00F89C78 /* ZypeTestUITests.m in Sources */,
 				275ED61D1C5800C000F89C78 /* Helper.m in Sources */,
-				2738B47B1C5905F60087A46D /* UIScrollView+APParallaxHeader.m in Sources */,
 				275ED62B1C58041500F89C78 /* Movie.m in Sources */,
 				275ED6231C5803AF00F89C78 /* MovieCell.m in Sources */,
 			);
