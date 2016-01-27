@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27090E401C5922EC00DB7E26 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27090E3F1C5922EC00DB7E26 /* BaseViewController.m */; };
+		27090E411C5922EC00DB7E26 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27090E3F1C5922EC00DB7E26 /* BaseViewController.m */; };
+		27090E421C5922EC00DB7E26 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27090E3F1C5922EC00DB7E26 /* BaseViewController.m */; };
 		275ED5E81C57DB5E00F89C78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 275ED5E71C57DB5E00F89C78 /* main.m */; };
 		275ED5EB1C57DB5E00F89C78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 275ED5EA1C57DB5E00F89C78 /* AppDelegate.m */; };
 		275ED5EE1C57DB5E00F89C78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 275ED5ED1C57DB5E00F89C78 /* ViewController.m */; };
@@ -54,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27090E3E1C5922EC00DB7E26 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		27090E3F1C5922EC00DB7E26 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		275ED5E31C57DB5E00F89C78 /* ZypeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZypeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		275ED5E71C57DB5E00F89C78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		275ED5E91C57DB5E00F89C78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -141,6 +146,8 @@
 				275ED5EA1C57DB5E00F89C78 /* AppDelegate.m */,
 				275ED5EC1C57DB5E00F89C78 /* ViewController.h */,
 				275ED5ED1C57DB5E00F89C78 /* ViewController.m */,
+				27090E3E1C5922EC00DB7E26 /* BaseViewController.h */,
+				27090E3F1C5922EC00DB7E26 /* BaseViewController.m */,
 				275ED6271C58041500F89C78 /* Movie.h */,
 				275ED6281C58041500F89C78 /* Movie.m */,
 				275ED61E1C5803AF00F89C78 /* MovieCell.h */,
@@ -397,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				275ED62F1C58044900F89C78 /* RTLabel.m in Sources */,
+				27090E401C5922EC00DB7E26 /* BaseViewController.m in Sources */,
 				275ED6291C58041500F89C78 /* Movie.m in Sources */,
 				275ED5EE1C57DB5E00F89C78 /* ViewController.m in Sources */,
 				275ED6211C5803AF00F89C78 /* MovieCell.m in Sources */,
@@ -416,6 +424,7 @@
 				275ED6011C57DB5F00F89C78 /* ZypeTestTests.m in Sources */,
 				275ED61C1C5800C000F89C78 /* Helper.m in Sources */,
 				275ED62A1C58041500F89C78 /* Movie.m in Sources */,
+				27090E411C5922EC00DB7E26 /* BaseViewController.m in Sources */,
 				275ED6221C5803AF00F89C78 /* MovieCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,6 +438,7 @@
 				275ED60C1C57DB5F00F89C78 /* ZypeTestUITests.m in Sources */,
 				275ED61D1C5800C000F89C78 /* Helper.m in Sources */,
 				275ED62B1C58041500F89C78 /* Movie.m in Sources */,
+				27090E421C5922EC00DB7E26 /* BaseViewController.m in Sources */,
 				275ED6231C5803AF00F89C78 /* MovieCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

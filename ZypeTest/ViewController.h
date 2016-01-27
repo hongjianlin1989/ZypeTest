@@ -7,16 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Helper.h"
-#import "MovieCell.h"
-#import "RTLabel.h"
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface ViewController : BaseViewController
 
-@property (strong, nonatomic) UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray *movieArray;
-@property (assign, nonatomic)  int count;
-
 
 @end
 
